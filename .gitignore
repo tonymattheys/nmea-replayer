@@ -1,0 +1,10 @@
+.cache.*.png
+bin/*
+NMEAPLayer.jar
+*.dll
+*.so
+*.dylib
+.DS_Store
+debugging.log
+/bin/
+.cache*.png

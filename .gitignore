@@ -8,3 +8,5 @@ NMEAPLayer.jar
 debugging.log
 /bin/
 .cache*.png
+/.classpath
+/.project

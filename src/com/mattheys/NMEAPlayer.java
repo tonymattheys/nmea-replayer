@@ -30,7 +30,7 @@ public class NMEAPlayer extends Thread {
     static Boolean running = false;
     static Boolean sprayandpray = false;
     RandomAccessFile randomAccessFile;
-    static int PORT = 11111 ;
+    static int PORT = 10110 ;
     
     private static final Logger logger = LogManager.getLogger(NMEAPlayer.class);
 

@@ -10,3 +10,4 @@ debugging.log
 .cache*.png
 /.classpath
 /.project
+/NMEAPlayer.jar

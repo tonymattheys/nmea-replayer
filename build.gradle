@@ -1,0 +1,33 @@
+// To run this do:
+// ./gradlew run
+
+// To build a distribution zip:
+// ./gradlew distZip
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+dependencies {
+	implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.16.0'
+	implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.16.0' 
+}
+
+sourceCompatibility = 21
+targetCompatibility = 21
+
+version = '0.0.2'
+group = 'com.mattheys'
+mainClassName = "com.mattheys.NMEALogReplayer"
+
+javafx {
+//    sdk = '/Users/tony/workspace/libraries/javafx-sdk-21.0.1'
+    version = "21.0.1"
+    modules = [ 'javafx.web', 'javafx.media', 'javafx.controls', 'javafx.graphics', 'javafx.swing', 'javafx.base', 'javafx.fxml' ]
+}
+
+repositories {
+    mavenCentral()
+}

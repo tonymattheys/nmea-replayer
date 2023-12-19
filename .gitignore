@@ -11,3 +11,5 @@ debugging.log
 /.classpath
 /.project
 /NMEAPlayer.jar
+/build/
+/bin1/

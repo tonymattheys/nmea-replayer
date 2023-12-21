@@ -1,9 +1,3 @@
-// To run this do:
-// ./gradlew run
-
-// To build a distribution zip:
-// ./gradlew distZip
-
 plugins {
     id 'java'
     id 'application'

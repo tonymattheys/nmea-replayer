@@ -13,3 +13,5 @@ debugging.log
 /NMEAPlayer.jar
 /build/
 /bin1/
+/.gradle/
+/.gitignore

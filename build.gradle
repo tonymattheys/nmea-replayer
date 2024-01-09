@@ -17,7 +17,9 @@ group = 'com.mattheys'
 mainClassName = "com.mattheys.NMEALogReplayer"
 
 javafx {
-//    sdk = '/Users/tony/workspace/libraries/javafx-sdk-21.0.1'
+    // the next line is only needed if you want to use a local copy
+    // of javafx instead of pulling it from MavenVentral
+    // sdk = '/Users/tony/workspace/libraries/javafx-sdk-21.0.1'
     version = "21.0.1"
     modules = [ 'javafx.web', 'javafx.media', 'javafx.controls', 'javafx.graphics', 'javafx.swing', 'javafx.base', 'javafx.fxml' ]
 }
